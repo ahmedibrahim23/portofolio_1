@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #1B263B;
+    background-color: #E8EDDF;
 }
 
 .header{
@@ -49,15 +49,63 @@ body{
 }
 
 
+section{
+    padding: 160px 20px 120px;
+}
+
 .hero{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url(img/img_1.jpg);
+    background-image: url(img/img_2.jpg);
     background-size: cover;
     background-position: center;
     /* display: flex; */
     align-items: center;
     justify-content: flex-start;
 
+}
+.slide{
+    margin-bottom: 20px;
+}
+.one{
+    padding: 2px;
+    font-size: 2.2rem;
+    font-weight: 500;
+    font-family: 'roboto', sans-serif;
+    background-color: orange;
+    border-radius: 5px;
+    list-style: 1.1;
+    color: white;
+
+}
+.two{
+    font-size: 2.2rem;
+    color: white;
+    font-weight: 500;
+    font-family: 'roboto', sans-serif;
+
+}
+.hero-text h2{
+    font-size: 1.2rem;
+    font-family: 'roboto',sans-serif;
+    font-weight: 500;
+    color: white;
+
+}
+.hero-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'roboto', sans-serif;
+    color: white;
+
+}
+.btn_1{
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 1rem;
+    font-family: 'roboto', sans-serif;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
 }
